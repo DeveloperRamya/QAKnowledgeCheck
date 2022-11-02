@@ -42,8 +42,29 @@ Testing the feature of 'Login' functionality
  
 
  
+|Test case           | Actual result                                    | Result    | 
+|--------------------|  ------------------------------------------------|-----------|
+|     Tc-01          |  User should be navigate to login  page          |Pass       |
+|                    |      Taken to home page                          |           |
+|     Tc-02,Tc-03    |  Warning: Oops!"that's not a match" should be    |pass       |
+|     Tc-04,Tc-05    |   displayed                                      |           |
+|      Tc-06         | User should be taken login page and  forgotten   |           | 
+|                    |   password link                                  |Fail       |
+|      Tc-07         | User should be able to login the application     | pass      |
+|      Tc-08         | placeholder text should be displayed inside email| pass      |
+|                    | and password fields                              |           |
+|     Tc-09          | User should go to the login page using browser   | pass      |
+|                    | back button                                      |           |
+|     Tc-10          | User should not get logged in                    | Fail      |
 
- 
+
+## Bug Report
+- Test case -06
+- User should be taken to login page and forgotten password link but after 2-3 try still asking password 
+- not taking into forgotten password link
+![image](https://user-images.githubusercontent.com/102300506/199596368-1ebad12d-d922-4fc0-90f6-95684a7ccec7.png)
+
+
 
  
 
